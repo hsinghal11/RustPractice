@@ -1,0 +1,26 @@
+# Ignore target directory (Rust build artifacts)
+/target/
+
+# Ignore debug and release artifacts
+**/debug/
+**/release/
+
+# Ignore Cargo.lock if not using it for libraries
+Cargo.lock
+
+# Ignore generated files
+*.log
+*.tmp
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore system files
+Thumbs.db
+.DS_Store
+
+# Ignore any unnecessary directories or files in the projects folder
+/projects/*/target/
