@@ -24,3 +24,4 @@ Thumbs.db
 
 # Ignore any unnecessary directories or files in the projects folder
 /projects/*/target/
+/Practice_till_ownership/*/target
